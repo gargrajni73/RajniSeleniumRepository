@@ -42,6 +42,8 @@ import org.testng.annotations.DataProvider;
 			
 			Thread.sleep(2000);
 			
+			System.out.println(driver.getTitle());
+			
 			System.out.println(driver.getCurrentUrl());
 			
 			if(driver.getCurrentUrl().equals("https://www.facebook.com/?sk=welcome"))
