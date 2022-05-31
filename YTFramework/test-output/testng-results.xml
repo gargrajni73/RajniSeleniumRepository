@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="197606" started-at="2022-05-29T00:34:43 IST" finished-at="2022-05-29T00:38:01 IST">
+    <groups>
+    </groups>
+    <test name="Command line test f2210a40-faec-4d39-9174-5929c5cca888" duration-ms="197606" started-at="2022-05-29T00:34:43 IST" finished-at="2022-05-29T00:38:01 IST">
+      <class name="org.testing.testscripts.TC2">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC2@50b494a6]" name="beforetest" is-config="true" duration-ms="4780" started-at="2022-05-29T00:35:27 IST" finished-at="2022-05-29T00:35:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC2@50b494a6]" name="test" duration-ms="31567" started-at="2022-05-29T00:35:32 IST" finished-at="2022-05-29T00:36:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC2@50b494a6]" name="aftertest" is-config="true" duration-ms="4125" started-at="2022-05-29T00:36:04 IST" finished-at="2022-05-29T00:36:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- org.testing.testscripts.TC2 -->
+      <class name="org.testing.testscripts.TC1">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC1@6b09bb57]" name="beforetest" is-config="true" duration-ms="6964" started-at="2022-05-29T00:34:43 IST" finished-at="2022-05-29T00:34:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC1@6b09bb57]" name="test" duration-ms="36814" started-at="2022-05-29T00:34:50 IST" finished-at="2022-05-29T00:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC1@6b09bb57]" name="aftertest" is-config="true" duration-ms="231" started-at="2022-05-29T00:35:27 IST" finished-at="2022-05-29T00:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- org.testing.testscripts.TC1 -->
+      <class name="org.testing.testscripts.TC6">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC6@32709393]" name="beforetest" is-config="true" duration-ms="4357" started-at="2022-05-29T00:36:46 IST" finished-at="2022-05-29T00:36:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC6@32709393]" name="test" duration-ms="39012" started-at="2022-05-29T00:36:50 IST" finished-at="2022-05-29T00:37:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC6@32709393]" name="aftertest" is-config="true" duration-ms="226" started-at="2022-05-29T00:37:29 IST" finished-at="2022-05-29T00:37:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- org.testing.testscripts.TC6 -->
+      <class name="org.testing.testscripts.TC5">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC5@3cef309d]" name="beforetest" is-config="true" duration-ms="5069" started-at="2022-05-29T00:36:08 IST" finished-at="2022-05-29T00:36:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC5@3cef309d]" name="test" duration-ms="32843" started-at="2022-05-29T00:36:13 IST" finished-at="2022-05-29T00:36:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC5@3cef309d]" name="aftertest" is-config="true" duration-ms="195" started-at="2022-05-29T00:36:46 IST" finished-at="2022-05-29T00:36:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- org.testing.testscripts.TC5 -->
+      <class name="org.testing.testscripts.TC8">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC8@3d99d22e]" name="beforetest" is-config="true" duration-ms="5372" started-at="2022-05-29T00:37:29 IST" finished-at="2022-05-29T00:37:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC8@3d99d22e]" name="test" duration-ms="25848" started-at="2022-05-29T00:37:35 IST" finished-at="2022-05-29T00:38:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC8@3d99d22e]" name="aftertest" is-config="true" duration-ms="164" started-at="2022-05-29T00:38:01 IST" finished-at="2022-05-29T00:38:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- org.testing.testscripts.TC8 -->
+    </test> <!-- Command line test f2210a40-faec-4d39-9174-5929c5cca888 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

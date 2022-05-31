@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="299" started-at="2022-05-31T06:18:27Z" finished-at="2022-05-31T06:18:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="299" started-at="2022-05-31T06:18:27Z" finished-at="2022-05-31T06:18:27Z">
+      <class name="pkg1.DataDrivenTesting">
+        <test-method status="PASS" signature="testcase1(java.lang.String, java.lang.String)[pri:0, instance:pkg1.DataDrivenTesting@60dcc9fe]" name="testcase1" duration-ms="8" started-at="2022-05-31T11:48:27Z" data-provider="dp2" finished-at="2022-05-31T11:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase1(java.lang.String, java.lang.String)[pri:0, instance:pkg1.DataDrivenTesting@60dcc9fe]" name="testcase1" duration-ms="22" started-at="2022-05-31T11:48:27Z" data-provider="dp2" finished-at="2022-05-31T11:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase1(java.lang.String, java.lang.String)[pri:0, instance:pkg1.DataDrivenTesting@60dcc9fe]" name="testcase1" duration-ms="4" started-at="2022-05-31T11:48:27Z" data-provider="dp2" finished-at="2022-05-31T11:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase1(java.lang.String, java.lang.String)[pri:0, instance:pkg1.DataDrivenTesting@60dcc9fe]" name="testcase1" duration-ms="0" started-at="2022-05-31T11:48:27Z" data-provider="dp2" finished-at="2022-05-31T11:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase1(java.lang.String, java.lang.String)[pri:0, instance:pkg1.DataDrivenTesting@60dcc9fe]" name="testcase1" duration-ms="16" started-at="2022-05-31T11:48:27Z" data-provider="dp2" finished-at="2022-05-31T11:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- pkg1.DataDrivenTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

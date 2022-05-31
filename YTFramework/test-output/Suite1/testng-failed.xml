@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="Command line test 3eaa93f8-9b39-45a3-a952-8a286b1d23a7(failed)">
+    <classes>
+      <class name="org.testing.testscripts.TC5">
+        <methods>
+          <include name="aftertest"/>
+          <include name="test"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC5 -->
+      <class name="org.testing.testscripts.TC1">
+        <methods>
+          <include name="aftertest"/>
+          <include name="test"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC1 -->
+      <class name="org.testing.testscripts.TC8">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC8 -->
+      <class name="org.testing.testscripts.TC6">
+        <methods>
+          <include name="aftertest"/>
+          <include name="test"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC6 -->
+      <class name="org.testing.testscripts.TC2">
+        <methods>
+          <include name="aftertest"/>
+          <include name="test"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC2 -->
+    </classes>
+  </test> <!-- Command line test 3eaa93f8-9b39-45a3-a952-8a286b1d23a7(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
