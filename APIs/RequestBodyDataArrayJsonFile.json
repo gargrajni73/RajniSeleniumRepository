@@ -1,0 +1,16 @@
+{
+	"firstname": "Shunbham",
+	"lastname": "Garg",
+	"id": "shubh",
+	"designation": "Test manager",
+	"Address": [
+	  	{
+			"type": "primary adress",
+			"house no": "262"
+	 	},
+		{
+			"type": "secondary adress",
+			"house no": "900"
+		}
+	]
+}

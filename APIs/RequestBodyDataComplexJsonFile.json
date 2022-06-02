@@ -1,0 +1,13 @@
+{
+"firstname": "Lovish",
+"lastname": "Singla",
+"designation": "Senior Product Manager",
+"id": "abce1234",
+"address":
+{
+	"Flat no." : "1111",
+	"Sector" : "Sector-49",
+	"Pincode": "121001"
+
+}
+}
