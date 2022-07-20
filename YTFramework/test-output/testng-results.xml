@@ -1,81 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="197606" started-at="2022-05-29T00:34:43 IST" finished-at="2022-05-29T00:38:01 IST">
+  <suite name="Default suite" duration-ms="69" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
     <groups>
     </groups>
-    <test name="Command line test f2210a40-faec-4d39-9174-5929c5cca888" duration-ms="197606" started-at="2022-05-29T00:34:43 IST" finished-at="2022-05-29T00:38:01 IST">
-      <class name="org.testing.testscripts.TC2">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC2@50b494a6]" name="beforetest" is-config="true" duration-ms="4780" started-at="2022-05-29T00:35:27 IST" finished-at="2022-05-29T00:35:32 IST">
+    <test name="Default test" duration-ms="69" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+      <class name="org.testing.testscripts.Class1AllAnnotations">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="beforesuite" is-config="true" duration-ms="9" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="beforetest" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC2@50b494a6]" name="test" duration-ms="31567" started-at="2022-05-29T00:35:32 IST" finished-at="2022-05-29T00:36:04 IST">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="beforeclass" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="beforemethod" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="test2" duration-ms="7" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="test" duration-ms="1" started-at="2022-07-17T21:32:14 IST" depends-on-methods="org.testing.testscripts.Class1AllAnnotations.test2" finished-at="2022-07-17T21:32:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC2@50b494a6]" name="aftertest" is-config="true" duration-ms="4125" started-at="2022-05-29T00:36:04 IST" finished-at="2022-05-29T00:36:08 IST">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="test1()[pri:1, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="test1" duration-ms="5" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="beforemethod" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="aftermethod" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="aftertest" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-      </class> <!-- org.testing.testscripts.TC2 -->
-      <class name="org.testing.testscripts.TC1">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC1@6b09bb57]" name="beforetest" is-config="true" duration-ms="6964" started-at="2022-05-29T00:34:43 IST" finished-at="2022-05-29T00:34:50 IST">
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="afterclass" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC1@6b09bb57]" name="test" duration-ms="36814" started-at="2022-05-29T00:34:50 IST" finished-at="2022-05-29T00:35:27 IST">
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:org.testing.testscripts.Class1AllAnnotations@4e718207]" name="aftersuite" is-config="true" duration-ms="0" started-at="2022-07-17T21:32:14 IST" finished-at="2022-07-17T21:32:14 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC1@6b09bb57]" name="aftertest" is-config="true" duration-ms="231" started-at="2022-05-29T00:35:27 IST" finished-at="2022-05-29T00:35:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- org.testing.testscripts.TC1 -->
-      <class name="org.testing.testscripts.TC6">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC6@32709393]" name="beforetest" is-config="true" duration-ms="4357" started-at="2022-05-29T00:36:46 IST" finished-at="2022-05-29T00:36:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC6@32709393]" name="test" duration-ms="39012" started-at="2022-05-29T00:36:50 IST" finished-at="2022-05-29T00:37:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC6@32709393]" name="aftertest" is-config="true" duration-ms="226" started-at="2022-05-29T00:37:29 IST" finished-at="2022-05-29T00:37:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- org.testing.testscripts.TC6 -->
-      <class name="org.testing.testscripts.TC5">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC5@3cef309d]" name="beforetest" is-config="true" duration-ms="5069" started-at="2022-05-29T00:36:08 IST" finished-at="2022-05-29T00:36:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC5@3cef309d]" name="test" duration-ms="32843" started-at="2022-05-29T00:36:13 IST" finished-at="2022-05-29T00:36:46 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC5@3cef309d]" name="aftertest" is-config="true" duration-ms="195" started-at="2022-05-29T00:36:46 IST" finished-at="2022-05-29T00:36:46 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- org.testing.testscripts.TC5 -->
-      <class name="org.testing.testscripts.TC8">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:org.testing.testscripts.TC8@3d99d22e]" name="beforetest" is-config="true" duration-ms="5372" started-at="2022-05-29T00:37:29 IST" finished-at="2022-05-29T00:37:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:org.testing.testscripts.TC8@3d99d22e]" name="test" duration-ms="25848" started-at="2022-05-29T00:37:35 IST" finished-at="2022-05-29T00:38:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:org.testing.testscripts.TC8@3d99d22e]" name="aftertest" is-config="true" duration-ms="164" started-at="2022-05-29T00:38:01 IST" finished-at="2022-05-29T00:38:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- org.testing.testscripts.TC8 -->
-    </test> <!-- Command line test f2210a40-faec-4d39-9174-5929c5cca888 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- aftersuite -->
+      </class> <!-- org.testing.testscripts.Class1AllAnnotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

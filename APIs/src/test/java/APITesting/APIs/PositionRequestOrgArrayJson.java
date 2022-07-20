@@ -2,8 +2,8 @@
 
 	import static io.restassured.RestAssured.*;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
+	import org.json.JSONArray;
+	import org.json.JSONObject;
 
 	import io.restassured.http.ContentType;
 	import io.restassured.response.Response;

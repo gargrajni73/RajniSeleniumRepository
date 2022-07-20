@@ -30,8 +30,10 @@ public class FileHandlingWriteData {
 	}
 	
 	public static void main(String[] args) throws IOException {
+		
 		FileHandlingWriteData obj=new FileHandlingWriteData();
-		obj.WriteData(3);	
+		obj.WriteData(3);
+		
 	}
 
 }

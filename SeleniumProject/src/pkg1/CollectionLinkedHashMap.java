@@ -7,7 +7,7 @@ import java.util.Set;
 public class CollectionLinkedHashMap {
 
 	public static void main(String[] args) {
-		//LinkedHashMap is ordered ,replace duplicate and store null value and null key
+		//LinkedHashMap is ordered ,replace duplicate and store 1 null key and any no. of null value
 		
 				LinkedHashMap<Integer,String> hm= new LinkedHashMap<Integer,String>();
 				hm.put(1,"Rajni");
@@ -18,6 +18,7 @@ public class CollectionLinkedHashMap {
 				hm.put(62,"Ojas");
 				hm.put(44,"Ojee");
 				hm.put(77,null );
+				hm.put(99,null);
 				hm.put(null,"Karan");
 				hm.put(null, "parkash");
 				

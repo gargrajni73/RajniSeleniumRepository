@@ -1,7 +1,9 @@
 package pkg1;
 
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -22,11 +24,23 @@ public class FacebookSignupUsingXpath {
 				}
 				
 				@Ignore								//To Ignore testcase
+				@Test
 				public void Ignoretestcase()
 				{
 					System.out.println("Rajni");
 				}
 				
+				@BeforeClass					//Method should be static here
+				public static void beforeclass()
+				{
+					System.out.println("Good");
+				}
+				
+				@AfterClass					//Method should be static here
+				public static void afterclass()
+				{
+					System.out.println("Bad");
+				}
 				
 				@Test
 				public void test() throws InterruptedException

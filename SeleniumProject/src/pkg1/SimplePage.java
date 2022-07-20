@@ -11,9 +11,9 @@ public class SimplePage {
 
 		System.setProperty("webdriver.chrome.driver", "../SeleniumProject/chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.facebook.com");  //get method belongs to Remote Webdriver
 		driver.manage().window().maximize();
-		WebElement username=driver.findElement(By.cssSelector("input#email"));
+		WebElement username=driver.findElement(By.cssSelector("input#email")); //findElement method belongs tpo RemoteWebdriver class
 		username.sendKeys("gargrajni73@gmail.com");
 		WebElement password=driver.findElement(By.name("pass"));
 		password.sendKeys("Rajni@456");

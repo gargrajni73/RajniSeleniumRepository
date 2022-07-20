@@ -16,6 +16,7 @@ public class CollectionLinkedList {
 		hs.add("Singla");
 		hs.add("Ojas");
 		hs.add(null);
+		hs.add(null);
 		
 		for(String i:hs)
 		{

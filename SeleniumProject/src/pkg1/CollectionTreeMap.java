@@ -18,6 +18,7 @@ public class CollectionTreeMap {
 		hm.put(62,"Ojas");
 		hm.put(44,"Ojee");
 		hm.put(77,null );
+		hm.put(88,null );
 		
 		Set<Integer> allkeys=hm.keySet(); 
 		

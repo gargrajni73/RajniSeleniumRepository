@@ -30,7 +30,6 @@
 					.when()
 					.post("http://localhost:3000/createemployee");
 			
-			
 			System.out.println("Status code is");
 			System.out.println(res.statusCode());
 			System.out.println("Response body is");

@@ -7,7 +7,7 @@ public class LogsCapture {
 	
 	public static void takeLogs(String classname,String message) 
 	{
-		DOMConfigurator.configure("../YTFramework/layout.xml");
+		DOMConfigurator.configure("../YTFramework/layout.xml"); //Make Connection with layout file
 		Logger Log=Logger.getLogger(classname);
 		Log.info(message);
 	}

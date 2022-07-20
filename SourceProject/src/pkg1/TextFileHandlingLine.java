@@ -13,7 +13,7 @@ public class TextFileHandlingLine {
 		FileReader fr=new FileReader(f);
 		BufferedReader br=new BufferedReader(fr);
 		String line;
-		while((line=br.readLine())!=null)
+		while((line=br.readLine())!=null) //readLine method belongs to BufferedReader class
 		{
 			System.out.println(line);
 		}

@@ -8,6 +8,7 @@ public class CollectionArrayList {
 
 	public static void main(String[] args) {
 		
+		//By default size of ArrayList is 10
 		//ArrayList is ordered ,allow duplicate and store null values
 		ArrayList<String> hs= new ArrayList<String>();
 		hs.add("Rajni");
@@ -16,6 +17,7 @@ public class CollectionArrayList {
 		hs.add("Ojas");
 		hs.add("Singla");
 		hs.add("Ojas");
+		hs.add(null);
 		hs.add(null);
 		
 		for(String i:hs)

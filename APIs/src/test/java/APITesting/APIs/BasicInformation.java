@@ -2,10 +2,10 @@ package APITesting.APIs;
 
 public class BasicInformation {
 	
-		String id;
-		String firstname;
-		String lastname;
-		String designation;
+		private String id;
+		private String firstname;
+		private String lastname;
+		private String designation;
 		AddressDetails address;
 		
 		public AddressDetails getAddress() {

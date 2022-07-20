@@ -9,10 +9,10 @@ import org.openqa.selenium.support.ui.Select;
 
 public class DropdownHandle {
 	
-	static ChromeDriver driver;
-	static Properties prop;
+//	static ChromeDriver driver;
+//	static Properties prop;
 
-	public static void dropDownHandleByVisibleText(String text1)
+	public static void dropDownHandleByVisibleText(String text1,ChromeDriver driver,Properties prop)
 	{
 		WebElement dropDown=driver.findElement(By.xpath(prop.getProperty("dropDownHandleByVisibleText")));
 		Select text=new Select(dropDown);
@@ -20,14 +20,14 @@ public class DropdownHandle {
 		
 	}
 	
-	public static void dropDownHandleByValue(String val)
+	public static void dropDownHandleByValue(String val,ChromeDriver driver,Properties prop)
 	{
 		WebElement dropDown=driver.findElement(By.xpath(prop.getProperty("dropDownHandleByValue")));
 		Select value=new Select(dropDown);
 		value.selectByValue(val);
 	}
 	
-	public static void dropDownHandleByIndex(int input)
+	public static void dropDownHandleByIndex(int input,ChromeDriver driver,Properties prop)
 	{
 		WebElement dropDown=driver.findElement(By.xpath(prop.getProperty("dropDownHandleByIndex")));
 		Select index=new Select(dropDown);

@@ -6,7 +6,7 @@ public class CollectionHashSet {
 
 	public static void main(String[] args) {
 		
-		//HashSet is unordered ,remove duplicate and not store null values
+		//HashSet is unordered ,remove duplicate and can store only 1 null value
 
 		HashSet<String> hs= new HashSet<String>();
 		hs.add("Rajni");
@@ -15,6 +15,9 @@ public class CollectionHashSet {
 		hs.add("Ojas");
 		hs.add("Singla");
 		hs.add("Ojas");
+		hs.add(null);
+		
+		System.out.println(hs);
 		
 		for(String i:hs)
 		{

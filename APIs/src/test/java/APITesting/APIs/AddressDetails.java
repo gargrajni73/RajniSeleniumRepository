@@ -2,9 +2,9 @@ package APITesting.APIs;
 
 public class AddressDetails {
 	
-	String flat_no;
-	String sector;
-	String pincode;
+	private String flat_no;
+	private String sector;
+	private String pincode;
 	
 	public String getFlat_no() {
 		return flat_no;

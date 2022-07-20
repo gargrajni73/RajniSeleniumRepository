@@ -8,7 +8,7 @@ public class CollectionHashMap {
 
 	public static void main(String[] args) {
 		
-		//HashMap is unordered ,replace duplicate and store null value and null key
+		//HashMap is unordered ,replace duplicate and store 1 null key and any no. of null value
 		
 		HashMap<Integer,String> hm= new HashMap<Integer,String>();
 		hm.put(1,"Rajni");
@@ -16,9 +16,11 @@ public class CollectionHashMap {
 		hm.put(44,"Lovish");
 		hm.put(23,"Ojas");
 		hm.put(55,"Singla");
+		hm.put(55,"Singla"); //Nothing happens
 		hm.put(62,"Ojas");
 		hm.put(44,"Ojee");
 		hm.put(77,null );
+		hm.put(99,null);
 		hm.put(null,"Karan");
 		hm.put(null, "parkash");
 		

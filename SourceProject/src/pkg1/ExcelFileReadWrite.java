@@ -30,7 +30,7 @@ public class ExcelFileReadWrite {
 		{
 			for(int j=0;j<col;j++)
 			{
-				Cell c=sh.getCell(j,i);  //First column then column in Excel sheet
+				Cell c=sh.getCell(j,i);  //First column then row in Excel sheet
 				Label l=new Label(j,i,c.getContents());		//Cell Structure
 				sh2.addCell(l);
 			}

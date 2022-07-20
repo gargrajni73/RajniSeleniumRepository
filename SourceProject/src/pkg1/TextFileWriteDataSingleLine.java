@@ -12,7 +12,7 @@ public class TextFileWriteDataSingleLine {
 		File f=new File("../SourceProject/Rajni Garg Text File.txt");
 		FileWriter fw=new FileWriter(f);
 		BufferedWriter bw=new BufferedWriter(fw);
-		bw.write("Ojas Singla");
+		bw.write("Ojas Singla"); //write method belongs to BufferedWriter class
 		bw.newLine();
 		String s="Lovish";
 		bw.write(s);

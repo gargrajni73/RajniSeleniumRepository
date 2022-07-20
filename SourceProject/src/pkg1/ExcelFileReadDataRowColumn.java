@@ -15,7 +15,7 @@ public class ExcelFileReadDataRowColumn {
 		File f=new File("../SourceProject/ExcelFileHandle.xls");
 		Workbook wb=Workbook.getWorkbook(f);  //A method can return object of the class--getWorkbook is a static method
 		Sheet sh=wb.getSheet(0);
-		Cell c=sh.getCell(colno,rowno);  //First column then column in Excel sheet
+		Cell c=sh.getCell(colno,rowno);  //First column then row in Excel sheet
 		System.out.println(c.getContents());
 	
 	}

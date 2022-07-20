@@ -54,6 +54,12 @@ public class Class1AllAnnotations {
 		System.out.println("Test2 Annotation");
 	}
 	
+	@Test(enabled=false)
+	public void test3()						//To skip a testcase in TestNG
+	{
+		System.out.println("Test3xxx Annotation");
+	}
+	
 	@AfterSuite
 	public void aftersuite()
 	{

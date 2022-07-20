@@ -12,10 +12,10 @@ public class GetRequest {
 		Response res= given()
 				.contentType(ContentType.JSON)
 				.when()
-				.get("http://localhost:3000/createemployee?firstname=Ridhi");
+				.get("http://localhost:3000/createemployee?firstname=Ojas");
 		
 		System.out.println("Status code is");
-		System.out.println(res.statusCode());
+		System.out.println(res.getStatusCode());
 		System.out.println("Response body is");
 		System.out.println(res.asString());
 	}
